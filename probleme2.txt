@@ -1,0 +1,33 @@
+
+procedure dot_product (v1,v2,ps)
+v1:array
+v2: array
+ps , i : intiger
+begin
+for i from 1 to length(v1) do
+ps = ps +v1[i] * v2[i]
+end for
+end
+...................
+algorithme verifier_orth
+VAR
+        V1 : array[1..N1] intiger
+        V2 : array[1..N2] intiger
+        i,j : intiger
+
+
+begin
+for 
+.........................
+fonction dot_product (v1,v2) retun ps 
+var 
+v1,v2: array
+ps : intiger
+i: intiger
+
+begin
+for i from 1 to length(v1) do
+ps = ps +v1[i] * v2[i]
+end for
+retun ps
+end

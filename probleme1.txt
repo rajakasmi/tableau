@@ -1,0 +1,31 @@
+ALGORITHME somme_element
+var
+// Array declaration
+A ,B : array
+i,j : intiger
+Sum: intiger
+
+begin
+sum=0
+
+
+/ Enter elements
+for i from 0 to length (A)-1 do
+if A[i] is not in B then
+sum=sum+ A[i]
+end if
+
+ 
+end for
+
+
+for j from 0 to length(B)- 1 do
+  if B[j] is not in A then
+  sum= sum + B[j]
+  end if
+end for
+whrite sum " la somme est :"
+
+
+
+end for
