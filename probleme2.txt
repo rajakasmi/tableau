@@ -11,15 +11,26 @@ end
 ...................
 algorithme verifier_orth
 VAR
-        V1 : array[1..N1] intiger
-        V2 : array[1..N2] intiger
-        i,j : intiger
+        V1, v2 : Array
+        begin
+
+  for each pair (v1, v2)  in the list of vectors do
+  if dot_product (v1 ,v2)  =0
+  then   
+whrite " les vecteurs v1 et v2 sont orthogonux"
+else 
+whrite " les vecteurs v1 et v2 ne sont pas orthogonux
+end if
+end for
+end
 
 
-begin
-for 
+
+
+
+
 .........................
-fonction dot_product (v1,v2) retun ps 
+fonction dot_product (v1,v2) :intiger
 var 
 v1,v2: array
 ps : intiger
